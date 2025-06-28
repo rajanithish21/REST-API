@@ -24,18 +24,18 @@ REST-API/
 │   │   │   └── com/
 │   │   │       └── example/
 │   │   │           └── restapi/
-│   │   │               ├── controller/      # Handles HTTP requests
-│   │   │               ├── entity/          # Contains model/entity classes
-│   │   │               ├── repository/      # Interfaces for data access
-│   │   │               └── service/         # Business logic layer
+│   │   │               ├── controller/       # Handles HTTP requests
+│   │   │               ├── entity/           # Contains model/entity classes
+│   │   │               ├── repository/       # Interfaces for data access
+│   │   │               └── service/          # Business logic layer
 │   │   └── resources/
-│   │       ├── application.properties       # App configuration
-│   │       └── ...                          # Other resource files
+│   │       ├── application.properties        # App configuration
+│   │       └── ...                            # Other resource files
 │   └── test/
-│       └── java/                            # Unit and integration tests
-│           └── ...
-├── pom.xml / build.gradle                   # Project dependencies
-└── README.md                                # Project overview
+│       └── java/                              # Unit and integration tests
+├── pom.xml / build.gradle                     # Project dependencies
+└── README.md                                  # Project overview
+
 
 
 ### 📬 **Sample API Endpoints**
