@@ -6,10 +6,10 @@ This repository contains a simple and clean implementation of a RESTful API. It 
 
 ## 🔧 Tech Stack
 
-- Java 17 / Spring Boot (or replace with Node.js, Express, etc.)
+- Java 17 / Spring Boot 
 - RESTful Web Services
-- Maven / Gradle
-- H2 / MySQL / PostgreSQL
+- Maven 
+- MySQL 
 - JPA / Hibernate (if using Java)
 - Postman for API testing
 
@@ -17,23 +17,29 @@ This repository contains a simple and clean implementation of a RESTful API. It 
 
 ## 📁 Project Structure (if Java example)
 
-src/
-├── main/
-│ ├── java/
-│ │ └── com/
-│ │ └── example/
-│ │ └── restapi/
-│ │ ├── controller/
-│ │ ├── entity/
-│ │ ├── repository/
-│ │ └── service/
-│ └── resources/
-│ ├── application.properties
-│ └── ...
-└── test/
+REST-API/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── restapi/
+│   │   │               ├── controller/      # Handles HTTP requests
+│   │   │               ├── entity/          # Contains model/entity classes
+│   │   │               ├── repository/      # Interfaces for data access
+│   │   │               └── service/         # Business logic layer
+│   │   └── resources/
+│   │       ├── application.properties       # App configuration
+│   │       └── ...                          # Other resource files
+│   └── test/
+│       └── java/                            # Unit and integration tests
+│           └── ...
+├── pom.xml / build.gradle                   # Project dependencies
+└── README.md                                # Project overview
 
 
-📬 Sample API Endpoints
+### 📬 **Sample API Endpoints**
+
 
 | Method | Endpoint          | Description       |
 | ------ | ----------------- | ----------------- |
